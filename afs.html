@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Responsive Images with Picture Element</h1>
+    <picture>
+        <source media="(max-width: 60px)" srcset="c:\Users\afrin\Downloads\pexels-valeriya-26151064.jpg">
+        <source media="(min-width: 61px)" srcset="c:\Users\afrin\Downloads\pexels-emre-akyol-320381804-17939186.jpg">
+        <img src="images/default.jpg" alt="Responsive Image">
+    </picture>
+</body>
+</html>
